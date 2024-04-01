@@ -30,3 +30,6 @@ answer, including your reasoning, to this markdown file.
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+## My Runtime for DFS
+In a worst-case scenario the algorithm will run a dfs search until every node has been visited and every edge has been checked. Since we're using an adjacency list and we're iterating through all nodes and all edges then in a worst-case scenario the runtime is $\Theta(V + E)$. 
